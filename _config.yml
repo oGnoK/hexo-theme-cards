@@ -146,12 +146,12 @@ meta:
   # 文章创建日期
   date:
     title: ''
-    format: 'YYYY-MM-DD' # 日期格式 http://momentjs.com/docs/
+    format: 'YYYY-MM-DD HH:mm' # 日期格式 http://momentjs.com/docs/
   
   # 文章更新日期
   updated:
     title: ''
-    format: 'YYYY-MM-DD' # 日期格式 http://momentjs.com/docs/
+    format: 'YYYY-MM-DD HH:mm' # 日期格式 http://momentjs.com/docs/
 
   # 文章缩略图
   thumbnail: 
@@ -346,6 +346,7 @@ footer:
   copyright_since: '2018'
 
   # 网站计数
+ # 网站计数
   statistics: 
 
     # 选择 LeanCloud/busuanzi 为网站计数。如果你完全不想启用，将 `use` 项留空即可
